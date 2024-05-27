@@ -8,10 +8,11 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+   
     width: 100vw;
     height: 100vh;
+    
+    
 }
 
 article {
@@ -60,9 +61,8 @@ article {
 .formulario {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding:  30px;
     background-color: #ffffff;
-    
 }
 
 input {
@@ -71,14 +71,15 @@ input {
     border: 1px solid rgb(219, 219, 219);
     border-radius: 2px;
     width: 100%;
-    padding: 10px
+    padding: 10px;
+    margin:10
     
 
 }
 
 button {
     
-    padding: 10px;
+    padding: 5px;
     color: rgba(255, 255, 255);
     border-radius: 8px;
     border: none;
@@ -86,6 +87,8 @@ button {
     opacity: .7;
     width: 100%;
     font-weight: bold;
+    margin-bottom: 10px;
+   
 }
 
 ::placeholder {
@@ -94,21 +97,21 @@ button {
 }
 
 .ou {
-    padding-top: 10px;
+    padding: 10px;
     display: flex;
     align-items: center ;
     font-size: 10px;
 }
 
 .separar {
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .Facebook {
     color: rgba(0, 55, 107, 1);
     text-decoration: none;
     font-weight: bold;
-    padding-top: 20px;
    
 }
 
