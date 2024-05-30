@@ -73,10 +73,42 @@ button{
 }
 
 .ou {
-    margin: 20px 40px 22px;
+    margin: 20px 18px 22px;
     font-size: 13px;
     font-family: -apple-system;
     font-weight:bold;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(115, 115, 115);
+}
+
+.hr1 {
+   
+    border-top: 1px solid rgb(219, 219, 219);
+    width: 80px;
+    
+}
+
+.hr2 {
+   
+    border-top: 1px solid rgb(219, 219, 219);
+    width: 80px;
+    
+}
+
+.separar {
+    display: flex;
+    flex-direction: rown;
+    justify-content: center;
+}
+
+.face{
+    width: 20px;
+    margin-right: 10px;
 }
 
 .facebook {
@@ -137,11 +169,8 @@ span{
 .rodape {
     padding: 0 10px 0;
 }
-
 footer{
+    height: 100px;
     color: rgb(115, 115, 115);
     font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
     }
