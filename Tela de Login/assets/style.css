@@ -99,13 +99,40 @@ button {
 .ou {
     padding: 10px;
     display: flex;
-    align-items: center ;
-    font-size: 10px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+    width: 100%;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(115, 115, 115);
+}
+
+.hr1 {
+   
+    border-top: 1px solid rgb(219, 219, 219);
+    width: 100px;
+    
+}
+
+.hr2 {
+   
+    border-top: 1px solid rgb(219, 219, 219);
+    width: 100px;
+    
 }
 
 .separar {
     display: flex;
-    flex-direction: column;
+    flex-direction: rown;
+    justify-content: center;
+}
+
+.face{
+    width: 20px;
+    margin-right: 10px;
 }
 
 .Facebook {
@@ -163,8 +190,15 @@ footer {
 
 }
 
+
+
+
+
 .ultimo {
     padding-bottom: 30px;
     font-size: 14px;
 }
 
+@media (max-width: 767px) {
+    .divcelular { display: none; }
+}
