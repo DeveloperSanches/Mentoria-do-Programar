@@ -29,7 +29,7 @@ article {
     border: 5p x solid black;
 }
 
-.celular{
+ .celular{
     width: 350px;
     height: 700px;
     margin: 0;
@@ -37,11 +37,13 @@ article {
     padding: 0;
     object-fit: cover;
 
-    
-}
+        
+} 
 
 .teste {
-    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid #dbdbdb;
     border-radius: 1px;
     margin-bottom: 10px;
@@ -190,10 +192,6 @@ footer {
 
 }
 
-
-
-
-
 .ultimo {
     padding-bottom: 30px;
     font-size: 14px;
@@ -201,4 +199,17 @@ footer {
 
 @media (max-width: 767px) {
     .divcelular { display: none; }
+}
+
+@media (max-width: 448px) {
+    .teste{
+        border: none;
+        margin-bottom: 10px;
+        padding: 10px; }
+
+        .cadastro {
+            border: none;
+            font-size: 14px;
+            padding: 15px;
+        }
 }
